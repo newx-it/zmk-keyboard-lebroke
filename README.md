@@ -14,7 +14,7 @@ manifest:
       revision: main
       import: app/west.yml
     # Add the name of the repository as a project.
-    - name: lebroke-zmk-config
+    - name: zmk-keyboard-lebroke
       remote: newx-it
       revision: main
   self:

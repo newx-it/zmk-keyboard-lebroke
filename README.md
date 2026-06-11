@@ -1,4 +1,4 @@
-add the lebroke zmk config repository by modifying your west.yml file in config.
+add the lebroke zmk config repository by modifying your west.yml file in config. then, add a copy of the `.conf` file and the `.keymap` file.
 
 ```manifest:
   remotes:

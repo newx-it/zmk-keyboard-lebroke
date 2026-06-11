@@ -21,7 +21,7 @@ manifest:
     path: config
 ```
 
-to build the firmware, add the following to your `build.yaml`.
+to build the firmware, add the following to your `build.yaml`:
 
 ```
 ---

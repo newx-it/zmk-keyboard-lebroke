@@ -1,4 +1,4 @@
-add the lebroke zmk config repository by modifying your `west.yml` file in `/config`. then, add a copy of the `.conf` file and the `.keymap` file, also in the `/config` folder.
+add the ocarina zmk config repository by modifying your `west.yml` file in `/config`. then, add a copy of the `.conf` file and the `.keymap` file, also in the `/config` folder.
 
 ```
 manifest:
@@ -14,7 +14,7 @@ manifest:
       revision: main
       import: app/west.yml
     # Add the name of the repository as a project.
-    - name: zmk-keyboard-lebroke
+    - name: zmk-keyboard-ocarina
       remote: newx-it
       revision: main
   self:
@@ -27,7 +27,7 @@ to build the firmware, add the following to your `build.yaml`:
 ---
 include:
 - board: nice_nano//zmk
-  shield: lebroke
+  shield: ocarina
   snippet: studio-rpc-usb-uart
   cmake-args: -DCONFIG_ZMK_STUDIO=y
 ```

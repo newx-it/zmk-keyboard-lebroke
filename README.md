@@ -1,6 +1,6 @@
 add the lebroke zmk config repository by modifying your `west.yml` file in `/config`. then, add a copy of the `.conf` file and the `.keymap` file, also in the `/config` folder.
 
-```manifest:
+`manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -17,13 +17,13 @@ add the lebroke zmk config repository by modifying your `west.yml` file in `/con
       remote: newx-it
       revision: main
   self:
-    path: config```
+    path: config`
 
     to build the firmware, add the following to your `build.yaml` 
 
-```---
+`---
 include:
 - board: nice_nano//zmk
   shield: lebroke
   snippet: studio-rpc-usb-uart
-  cmake-args: -DCONFIG_ZMK_STUDIO=y```
+  cmake-args: -DCONFIG_ZMK_STUDIO=y`

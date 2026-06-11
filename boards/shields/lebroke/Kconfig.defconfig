@@ -3,9 +3,9 @@ CONFIG_ZMK_HID_REPORT_TYPE_NKRO = y
 config ZMK_PM_SOFT_OFF
 	default y
 
-if SHIELD_OCARINA
+if SHIELD_LEBROKE
 
 config ZMK_KEYBOARD_NAME
-	default "ocarina"
+	default "lebroke"
 
 endif
